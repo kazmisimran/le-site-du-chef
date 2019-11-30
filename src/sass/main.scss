@@ -1,0 +1,54 @@
+@import "./variables";
+@import "./../../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+    margin: 0;
+    header {
+        .carousel .carousel-indicators li{
+            width: 1em;
+            height: 1em;
+            border-radius: 100%;
+
+        }
+        .carousel .carousel-inner .carousel-item img{
+            filter: brightness(20%);
+        }
+        .carousel .carousel-inner .carousel-item .carousel-caption{
+            font-family: 'Courgette', cursive;
+            font-size: 4rem;
+            .occasion, .makes {
+                font-size: 5.5rem;
+            }
+        }
+        .hdr-deco {
+            background-image: url(./../../images/bottom_decoration_img.png);
+            z-index: 5;
+            height: 2vh;
+            width: 100%;
+            position: absolute;
+            top: 1210.33px;
+        }
+        nav {
+            position: fixed;
+            z-index: 9;
+            top: 0;
+            left: 0;
+            right: 0;
+            ul {
+                list-style: none;
+                li {
+                    height: 100%;
+                    a {
+                        color: white;
+                    }
+                }
+                li:hover {
+                    background-color: rgb(177, 52, 60) ;
+                    a {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
