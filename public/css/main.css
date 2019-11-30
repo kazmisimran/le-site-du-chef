@@ -10779,13 +10779,22 @@ body header .carousel .carousel-inner .carousel-item img {
           filter: brightness(20%);
 }
 
-body header .carousel .carousel-inner .carousel-item .carousel-caption {
+body header .carousel .carousel-inner .carousel-item .carousel-caption p {
   font-family: 'Courgette', cursive;
   font-size: 4rem;
 }
 
-body header .carousel .carousel-inner .carousel-item .carousel-caption .occasion, body header .carousel .carousel-inner .carousel-item .carousel-caption .makes {
+body header .carousel .carousel-inner .carousel-item .carousel-caption p .occasion, body header .carousel .carousel-inner .carousel-item .carousel-caption p .makes {
   font-size: 5.5rem;
+}
+
+body header .carousel .carousel-inner .carousel-item .carousel-caption .buttons .btn {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-radius: 50px;
+}
+
+body header .carousel .carousel-inner .carousel-item .carousel-caption .buttons .btn:first-child {
+  background-color: #e4e4e4;
 }
 
 body header .hdr-deco {
