@@ -10765,6 +10765,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 body {
+  background-image: url(./../../images/main_bg.jpg);
   margin: 0;
 }
 
@@ -10832,5 +10833,49 @@ body header nav ul li:hover {
 
 body header nav ul li:hover a {
   color: white;
+}
+
+body .about {
+  height: 1850px;
+}
+
+body .about .feuille {
+  height: 95%;
+  width: 85%;
+  background-color: white;
+  position: relative;
+}
+
+body .about .feuille .right-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+body .about .feuille .right-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+body .about .feuille .left-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+body .about .feuille .left-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+body .about .feuille .story {
+  position: relative;
+  top: 2%;
+}
+
+body .about .feuille .story h1 {
+  font-family: 'Courgette', cursive;
 }
 /*# sourceMappingURL=main.css.map */
