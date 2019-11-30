@@ -10878,4 +10878,8 @@ body .about .feuille .story {
 body .about .feuille .story h1 {
   font-family: 'Courgette', cursive;
 }
+
+body .about .feuille .story h1 span {
+  font-size: 1.8em;
+}
 /*# sourceMappingURL=main.css.map */
