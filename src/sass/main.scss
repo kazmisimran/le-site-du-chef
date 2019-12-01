@@ -67,7 +67,7 @@ body {
         height: 1850px;
         .feuille{
             height: 95%;
-            width: 85%;
+            width: 90%;
             background-color: white;
             position: relative;
             .right-top{
@@ -99,9 +99,59 @@ body {
                         font-size: 1.8em;
                     }
                 }
+                p {
+                    width: 40%;
+                }
                
 
             }
+            .menu {
+                position: relative;
+                top: 3%;
+                h1{
+                    font-family: 'Courgette', cursive;
+                    span{
+                        font-size: 1.8em;
+                    }
+                }
+                .row .col1 {
+                    width: 20%;
+                    border-right: 7px solid rgb(177, 52, 60);
+                    h2{
+                        font-family: 'Courgette', cursive;
+                    }
+                }
+                .row .col2 {
+                    width: 40%;
+
+                    .menu-image{
+                       img {
+                        border-radius: 100%;
+                        border: solid 5px rgb(204, 204, 204) ;
+                        width: 75%;
+                       }
+                       
+                    }
+                    .menu-texte p .gras{
+                        font-weight: bold;
+                        
+                    }
+                }
+                
+            }
+        }
+    }
+    .team {
+        background-image: url(./../../images/team_background.jpg);
+        .title {
+            font-family: 'Courgette', cursive;
+            span{
+                font-size: 1.8em;
+            }
+        }
+        .row{
+            width: 85%;
+            margin: 0 auto;
         }
     }
 
