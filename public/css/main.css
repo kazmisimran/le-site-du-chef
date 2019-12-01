@@ -10939,4 +10939,47 @@ body .team .row {
   width: 85%;
   margin: 0 auto;
 }
+
+body .booking {
+  height: 1850px;
+}
+
+body .booking .feuille {
+  height: 95%;
+  width: 90%;
+  background-color: white;
+  position: relative;
+}
+
+body .booking .feuille .title {
+  font-family: 'Courgette', cursive;
+}
+
+body .booking .feuille .title span {
+  font-size: 1.8em;
+}
+
+body .booking .feuille .right-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+body .booking .feuille .right-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+body .booking .feuille .left-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+body .booking .feuille .left-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 /*# sourceMappingURL=main.css.map */
