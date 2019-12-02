@@ -65,11 +65,10 @@ body {
     }
     .about {
         height: 1850px;
-        .feuille{
-            height: 95%;
-            width: 90%;
-            background-color: white;
+        .card{
             position: relative;
+            width: 90%;
+            height: 95%;
             .right-top{
                 position: absolute;
                 top: 0;
@@ -114,30 +113,42 @@ body {
                         font-size: 1.8em;
                     }
                 }
-                .row .col1 {
-                    width: 20%;
-                    border-right: 7px solid rgb(177, 52, 60);
-                    h2{
-                        font-family: 'Courgette', cursive;
-                    }
-                }
-                .row .col2 {
-                    width: 40%;
-
-                    .menu-image{
-                       img {
-                        border-radius: 100%;
-                        border: solid 5px rgb(204, 204, 204) ;
-                        width: 75%;
-                       }
-                       
-                    }
-                    .menu-texte p .gras{
-                        font-weight: bold;
-                        
-                    }
-                }
+              
                 
+            }
+            .menu-list {
+                .row .col-2 a{
+                    text-decoration: none;
+                    font-family: 'Courgette', cursive;
+                    color: black;
+                    font-size: 2em;
+                    
+                }
+                .row .col-2 a:first-child{
+                    border-right: solid 10px rgb(177, 52, 60) ;
+                }
+                .row .col-2 a:last-child{
+                    height: 113px;
+                    
+                }
+                .row .col-10 .row{
+                    height: 20%;
+                    .col-6{
+                        .w-20{
+                            width: 20%;
+                            img{
+                                border-radius: 100%;
+                            }
+                        }
+                        .w-70{
+                            width: 70%;
+                        }
+                        .w-10{
+                            width: 10%;
+                        }
+                    }
+                }
+
             }
         }
     }
@@ -156,10 +167,8 @@ body {
     }
     .booking {
         height: 1850px;
-        .feuille{
-            height: 95%;
+        .card{
             width: 90%;
-            background-color: white;
             position: relative;
             .title {
                 font-family: 'Courgette', cursive;
@@ -186,13 +195,11 @@ body {
                     color: black;
                     font-size: 0.9em;
                 }
-                .form-row .col-md-5 select{
+                .form-row .col-md-5 .select-css{
                     border-radius: 10px;
-                    option {
-                        color:black;
-                        font-size: 0.9em;
-    
-                    }
+                    margin: 0;
+                    max-width: 100%;
+                    padding: .6em 1.4em .5em .8em;
                 }
                 .btn{
                     border-radius: 30px;
