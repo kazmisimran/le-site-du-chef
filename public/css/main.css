@@ -10924,7 +10924,7 @@ body .about .feuille .menu .row .col2 .menu-texte p .gras {
 }
 
 body .team {
-  background-image: url(./../../images/team_background.jpg);
+  background-color: black;
 }
 
 body .team .title {
@@ -10957,6 +10957,57 @@ body .booking .feuille .title {
 
 body .booking .feuille .title span {
   font-size: 1.8em;
+}
+
+body .booking .feuille form {
+  width: 50%;
+  background-image: url(./../../images/book_table_bg.jpg);
+  border-radius: 3%;
+}
+
+body .booking .feuille form p {
+  font-size: 1.2em;
+}
+
+body .booking .feuille form p span {
+  font-size: 1.5em;
+}
+
+body .booking .feuille form .form-row .col-md-5 input {
+  border-radius: 10px;
+}
+
+body .booking .feuille form .form-row .col-md-5 input::-webkit-input-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+body .booking .feuille form .form-row .col-md-5 input:-ms-input-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+body .booking .feuille form .form-row .col-md-5 input::-ms-input-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+body .booking .feuille form .form-row .col-md-5 input::placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+body .booking .feuille form .form-row .col-md-5 select {
+  border-radius: 10px;
+}
+
+body .booking .feuille form .form-row .col-md-5 select option {
+  color: black;
+  font-size: 0.9em;
+}
+
+body .booking .feuille form .btn {
+  border-radius: 30px;
 }
 
 body .booking .feuille .right-top {
