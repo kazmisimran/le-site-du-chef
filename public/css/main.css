@@ -10918,6 +10918,10 @@ body .about .card .menu-list .row .col-10 .row {
   height: 20%;
 }
 
+body .about .card .menu-list .row .col-10 .row .col-6 .w-20, body .about .card .menu-list .row .col-10 .row .col-6 .w-55, body .about .card .menu-list .row .col-10 .row .col-6 .w-10 {
+  border-bottom: 1px dotted gray;
+}
+
 body .about .card .menu-list .row .col-10 .row .col-6 .w-20 {
   width: 20%;
 }
@@ -10966,6 +10970,7 @@ body .booking {
 
 body .booking .card {
   width: 90%;
+  height: 95%;
   position: relative;
 }
 
@@ -11024,6 +11029,7 @@ body .booking .card form .form-row .col-md-5 .select-css {
 
 body .booking .card form .btn {
   border-radius: 30px;
+  font-size: 0.8em;
 }
 
 body .booking .card .right-top {
