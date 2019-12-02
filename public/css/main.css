@@ -11055,4 +11055,28 @@ body .booking .card .left-bottom {
   bottom: 0;
   left: 0;
 }
+
+body .booking .blog .card {
+  border: none;
+  position: relative;
+}
+
+body .booking .blog .card h2 {
+  position: absolute;
+  bottom: 20%;
+  left: 9%;
+}
+
+body .booking .blog .card img {
+  border-radius: 30px;
+  border: solid 5px #efefef;
+}
+
+body .booking .blog .card .card-body h5 {
+  font-weight: bold;
+}
+
+body .booking .bouton .btn {
+  border-radius: 30px;
+}
 /*# sourceMappingURL=main.css.map */

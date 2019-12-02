@@ -241,6 +241,31 @@ body {
             }
 
         }
+        .blog{
+            .card{
+                border: none;
+                position: relative;
+                h2{
+                    position: absolute;
+                    bottom: 20%;
+                    left: 9%;
+                }
+                img {
+                    border-radius: 30px;
+                    border: solid 5px rgb(239, 239,239);
+                }
+                .card-body{
+                    h5{
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        .bouton .btn{
+            border-radius: 30px;
+        }
     }
+
+
 
 }
