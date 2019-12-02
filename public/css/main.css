@@ -10924,14 +10924,23 @@ body .about .card .menu-list .row .col-10 .row .col-6 .w-20 {
 
 body .about .card .menu-list .row .col-10 .row .col-6 .w-20 img {
   border-radius: 100%;
+  border: solid 5px #efefef;
 }
 
-body .about .card .menu-list .row .col-10 .row .col-6 .w-70 {
-  width: 70%;
+body .about .card .menu-list .row .col-10 .row .col-6 .w-55 {
+  width: 55%;
 }
 
 body .about .card .menu-list .row .col-10 .row .col-6 .w-10 {
   width: 10%;
+}
+
+body .about .card .menu-list .row .col-10 .row .col-6 .w-10 h4 {
+  background-color: #efefef;
+}
+
+body .about .card .menu-list .row .col-10 .row .col-6 .w-10 h4 .badge {
+  background-color: transparent;
 }
 
 body .team {
