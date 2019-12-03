@@ -313,8 +313,16 @@ body {
     }
 
     footer{
+        position: relative;
+        .ftr-deco{
+            position:absolute;
+            top: 0;
+       }
         .social{
             background-image: url(./../../images/footer_background.jpg);
+            .row .col-insta div img{
+                width: 100%;
+            }
         }
     }
 

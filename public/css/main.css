@@ -11133,7 +11133,20 @@ body .contact .contact-info {
   border-radius: 20px;
 }
 
+body footer {
+  position: relative;
+}
+
+body footer .ftr-deco {
+  position: absolute;
+  top: 0;
+}
+
 body footer .social {
   background-image: url(./../../images/footer_background.jpg);
+}
+
+body footer .social .row .col-insta div img {
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
