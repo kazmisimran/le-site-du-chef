@@ -10777,6 +10777,14 @@ body header .carousel .carousel-indicators li {
   width: 1em;
   height: 1em;
   border-radius: 100%;
+  color: grey;
+}
+
+body header .carousel .carousel-indicators .active {
+  width: 0.5em;
+  height: 0.5em;
+  margin: 0.3em;
+  border: double 0.5em white;
 }
 
 body header .carousel .carousel-inner .carousel-item img {

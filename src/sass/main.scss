@@ -10,7 +10,14 @@ body {
             width: 1em;
             height: 1em;
             border-radius: 100%;
+            color:grey;
 
+        }
+        .carousel .carousel-indicators .active{
+            width: 0.5em;
+            height: 0.5em;
+            margin: 0.3em;
+            border: double 0.5em white;
         }
         .carousel .carousel-inner .carousel-item img{
             filter: brightness(20%);
