@@ -35,11 +35,11 @@ body {
     
         .hdr-deco {
             background-image: url(./../../images/bottom_decoration_img.png);
-            z-index: 5;
+            background-repeat: repeat-x;
             height: 2vh;
             width: 100%;
             position: absolute;
-            top: 1210.33px;
+            bottom: -0.5%;
         }
         nav {
             position: absolute !important;
@@ -314,12 +314,17 @@ body {
 
     footer{
         position: relative;
-        .ftr-deco{
-            position:absolute;
-            top: 0;
-       }
+        .ftr-deco {
+            background-image: url(./../../images/footer_bottom_decoration_img.png);
+            background-repeat: repeat-x;
+            height: 2vh;
+            width: 100%;
+            position: absolute;
+            top: 0%;
+        }
         .social{
             background-image: url(./../../images/footer_background.jpg);
+            z-index: 5;
             .row .col-insta div img{
                 width: 100%;
             }

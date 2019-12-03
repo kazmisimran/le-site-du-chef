@@ -10804,11 +10804,11 @@ body header .carousel .carousel-inner .carousel-item .carousel-caption .buttons 
 
 body header .hdr-deco {
   background-image: url(./../../images/bottom_decoration_img.png);
-  z-index: 5;
+  background-repeat: repeat-x;
   height: 2vh;
   width: 100%;
   position: absolute;
-  top: 1210.33px;
+  bottom: -0.5%;
 }
 
 body header nav {
@@ -11138,12 +11138,17 @@ body footer {
 }
 
 body footer .ftr-deco {
+  background-image: url(./../../images/footer_bottom_decoration_img.png);
+  background-repeat: repeat-x;
+  height: 2vh;
+  width: 100%;
   position: absolute;
-  top: 0;
+  top: 0%;
 }
 
 body footer .social {
   background-image: url(./../../images/footer_background.jpg);
+  z-index: 5;
 }
 
 body footer .social .row .col-insta div img {
