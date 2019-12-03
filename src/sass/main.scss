@@ -5,6 +5,7 @@ body {
     background-image: url(./../../images/main_bg.jpg);
     margin: 0;
     header {
+        position: relative;
         .carousel .carousel-indicators li{
             width: 1em;
             height: 1em;
@@ -41,7 +42,7 @@ body {
             top: 1210.33px;
         }
         nav {
-            position: fixed;
+            position: absolute !important;
             z-index: 9;
             top: 0;
             left: 0;
@@ -64,7 +65,7 @@ body {
         }
     }
     .about {
-        height: 1850px;
+        min-height: 1850px;
         .card{
             position: relative;
             width: 90%;
@@ -117,23 +118,23 @@ body {
                 
             }
             .menu-list {
-                .row .col-2 a{
+                .row .col-onglets a{
                     text-decoration: none;
                     font-family: 'Courgette', cursive;
                     color: black;
                     font-size: 2em;
                     
                 }
-                .row .col-2 a:first-child{
+                .row .col-onglets a:first-child{
                     border-right: solid 10px rgb(177, 52, 60) ;
                 }
-                .row .col-2 a:last-child{
+                .row .col-onglets a:last-child{
                     height: 113px;
                     
                 }
-                .row .col-10 .row{
+                .row .col-menu .row{
                     height: 20%;
-                    .col-6{
+                    .col-menu-list{
                         .w-20 , .w-55 , .w-10 {
                             border-bottom: 1px dotted gray;
                         }
@@ -146,6 +147,9 @@ body {
                         }
                         .w-55{
                             width: 55%;
+                            p span{
+                                font-weight: bold;
+                            }
                         }
                         .w-10{
                             width: 10%;
@@ -263,6 +267,35 @@ body {
         }
         .bouton .btn{
             border-radius: 30px;
+        }
+    }
+
+    .testimonials{
+        background-image: url(./../../images/testimonials_background.jpg);
+        .title{
+            font-family: 'Courgette', cursive;
+            span{
+                font-size: 1.8em;
+            }
+        }
+        .test-body{
+            width: 85%;
+            margin: 0 auto;
+            .manager{
+                div img{
+                    border-radius: 100%;
+                    border: solid 5px rgb(239, 239,239);
+                    width: 80%;
+
+                }
+                .card {
+                    border-radius: 20px;
+                    .card-body .card-title{
+                        font-weight: bold;
+                    }
+                }
+            }
+
         }
     }
 
