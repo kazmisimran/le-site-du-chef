@@ -10956,7 +10956,7 @@ body .about .card .menu-list .row .col-menu .row .col-menu-list .w-10 h4 .badge 
 }
 
 body .team {
-  background-color: black;
+  background-image: url(./../../images/team_background.jpg);
 }
 
 body .team .title {
@@ -11090,6 +11090,8 @@ body .booking .bouton .btn {
 
 body .testimonials {
   background-image: url(./../../images/testimonials_background.jpg);
+  background-size: 500%;
+  background-position: 50% 50%;
 }
 
 body .testimonials .title {
@@ -11117,5 +11119,21 @@ body .testimonials .test-body .manager .card {
 
 body .testimonials .test-body .manager .card .card-body .card-title {
   font-weight: bold;
+}
+
+body .contact .title {
+  font-family: 'Courgette' , cursive;
+}
+
+body .contact .title span {
+  font-size: 1.8em;
+}
+
+body .contact .contact-info {
+  border-radius: 20px;
+}
+
+body footer .social {
+  background-image: url(./../../images/footer_background.jpg);
 }
 /*# sourceMappingURL=main.css.map */

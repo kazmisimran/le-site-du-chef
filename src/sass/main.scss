@@ -168,7 +168,7 @@ body {
         }
     }
     .team {
-        background-color: black;
+        background-image: url(./../../images/team_background.jpg);
         .title {
             font-family: 'Courgette', cursive;
             span{
@@ -272,6 +272,8 @@ body {
 
     .testimonials{
         background-image: url(./../../images/testimonials_background.jpg);
+        background-size: 500%;
+        background-position: 50% 50%;
         .title{
             font-family: 'Courgette', cursive;
             span{
@@ -296,6 +298,23 @@ body {
                 }
             }
 
+        }
+    }
+    .contact{
+        .title{
+            font-family: 'Courgette' , cursive;
+            span{
+                font-size: 1.8em;
+            }
+        }
+        .contact-info{
+            border-radius: 20px;
+        }
+    }
+
+    footer{
+        .social{
+            background-image: url(./../../images/footer_background.jpg);
         }
     }
 
