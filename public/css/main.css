@@ -10804,6 +10804,7 @@ body header .carousel .carousel-inner .carousel-item .carousel-caption p .occasi
 body header .carousel .carousel-inner .carousel-item .carousel-caption .buttons .btn {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   border-radius: 50px;
+  font-size: 0.9em;
 }
 
 body header .carousel .carousel-inner .carousel-item .carousel-caption .buttons .btn:first-child {
@@ -10939,7 +10940,6 @@ body .about .card .menu-list .row .col-menu .row .col-menu-list .w-20 {
 }
 
 body .about .card .menu-list .row .col-menu .row .col-menu-list .w-20 img {
-  border-radius: 100%;
   border: solid 5px #efefef;
 }
 
